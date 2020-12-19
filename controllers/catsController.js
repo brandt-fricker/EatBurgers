@@ -17,7 +17,7 @@ router.get("/", function (req, res) {
 });
 
 router.post("/api/burgers", function (req, res) {
-  cat.create(["name", "devour"], [req.body.name, req.body.devour], function (
+burger.create(["name", "devour"], [req.body.name, req.body.devour], function (
     result
   ) {
     // Send back the ID of the new quote
@@ -30,7 +30,7 @@ router.put("/api/burgers/:id", function (req, res) {
 
   console.log("condition", condition);
 
-  cat.update(
+  burger.update(
     {
       devour: req.body.devour,
     },
@@ -47,7 +47,7 @@ router.put("/api/burgers/:id", function (req, res) {
 });
 
 router.delete("/api/burgers/:id", function (req, res) {
-  cat.delete({ id: req.params.id }, function (err, data) {
+  burger.delete({ id: req.params.id }, function (err, data) {
     if (err) {
       res.status(500).end();
     } else if (data.affectedRows == 0) {
