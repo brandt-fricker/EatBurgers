@@ -11,7 +11,7 @@ $(function () {
     });
   });
   
-  $(".change-sleep").on("click", function (event) {
+  $(".change-devour").on("click", function (event) {
     var id = $(this).data("id");
     var newDevour = $(this).data("newdevour");
 
