@@ -1,14 +1,13 @@
 <h1 class="center-text">NomNomNomNom</h1>
-
-
+<img src="../images/catburger.jpg" alt="Cat Eating Burger">
 <div class="container">
   <div class="inner_div">
     <h2>Eat Me!!!</h2>
     <ul>
       {{#each burgers}}
-        {{#unless devour}}
-          {{> burgers/burger-block devour=true}}
-        {{/unless}}
+      {{#unless devour}}
+      {{> burgers/burger-block devour=true}}
+      {{/unless}}
       {{/each}}
     </ul>
   </div>
@@ -17,9 +16,9 @@
 
     <ul>
       {{#each burgers}}
-        {{#if devour}}
-          {{> burgers/burger-block devour=false}}
-        {{/if}}
+      {{#if devour}}
+      {{> burgers/burger-block devour=false}}
+      {{/if}}
       {{/each}}
     </ul>
   </div>
@@ -45,5 +44,5 @@
 
       <button type="submit">Add Burger</button>
     </form>
-  </div>  
+  </div>
 </div>
