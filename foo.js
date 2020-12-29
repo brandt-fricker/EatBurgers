@@ -1,12 +1,12 @@
 const burger = require("./models/cat");
 
-// Find and log all cats
+// Find and log all burgers
 burger.all(function (data) {
   console.table(data);
-  // Delete cat with id of 1
+  // Delete burger with id of 1
   burger.delete({ id: 1 }, function (err, data) {
     console.log(data);
-    // Find and log all cats
+    // Find and log all burgers
     burger.all(function (data) {
       console.table(data);
     });
