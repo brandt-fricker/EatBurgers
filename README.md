@@ -39,5 +39,5 @@ Eat-Da-Burgaaah! is a restaurant app that lets users input the names of burgers 
 * View [Eat-Da-Burgaaah!](https://stark-river-49417.herokuapp.com/) Live on Heroku
 * [Repository](https://github.com/brandt-fricker/EatBurgers)
 * [GitHub Profile](https://github.com/brandt-fricker)
-* Any questions, comments, or concerns please feel free to contact me, all my info can be found ![here](images/Resume.pdf)
+* Any questions, comments, or concerns please feel free to contact me, all my info can be found [here](https://drive.google.com/file/d/1lZC64xhP2PnV-DXlreSIA11vyq-aKmZ2/view?usp=sharing)
 
