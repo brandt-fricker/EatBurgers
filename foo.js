@@ -1,4 +1,4 @@
-const burger = require("./models/cat");
+const burger = require("./models/burgers.js");
 
 // Find and log all burgers
 burger.all(function (data) {
